@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box ;
+}
+body{
+    margin: 0;
+}
+.main-header{
+    background-color: #2ddf5c;
+    width: 100%;
+    padding: 15px 10px;
+}
+.main-header > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.brand-logo{
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+}
+.main-nav{
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 116px);
+}
+.main-nav-links{
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.main-nav-link{
+    display: inline-block;
+    margin: 0 16px;
+}
+.main-nav-link > a{
+    text-decoration: none;
+    color: black;
+}
+.main-nav-link-cta > a{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+.main-nav-link > a:hover{
+    color: white;
+    border-bottom: 2px white solid;
+}
+.main-nav-link-cta > a:hover{
+    background-color: white;
+    color: red;
+    border: none;
+}
+.overview{
+    background-color: rgb(255, 41, 41, 0.7);
+    height: 480px;
+    color: white;
+    padding: 16px;
+}
+.overview >h1{
+    font-weight: bolder;
+}
+.plans{
+    width: 100%;
+    text-align: center;
+}
+.plans-title{
+    color: black;
+    text-align: center;
+    font-size: 32px;
+}
+.plan{
+    display: inline-block;
+    width: 30%;
+    background-color: #d5ffdc;
+    padding: 16px;
+    margin: 8px;
+}
+.plan-highlighted{
+    background-color: green;
+    color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.plan-title{
+    color: darkolivegreen ;
+}
+.plan-highlighted > .plan-title{
+    color: white;
+}
+.plan-features{
+    list-style: none;
+    padding: 0;
+}
+.plan-features >li{
+    margin-top: 8px;
+}
+.recommended{
+    text-transform: uppercase;
+    color: green;
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: bold;
+    border: 2px solid;
+}
+button{
+    cursor: pointer;
+    color: white;
+    background-color: darkgreen;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: bold;
+    border: 2px solid;
+}
