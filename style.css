@@ -60,6 +60,7 @@ body{
 }
 .overview >h1{
     font-weight: bolder;
+    margin-top: 320px;
 }
 .plans{
     width: 100%;
@@ -112,4 +113,29 @@ button{
     padding: 8px;
     font-weight: bold;
     border: 2px solid;
+}
+#key-features{
+    background-color: rgb(255, 41, 41, 0.7);
+    width: 100%;
+}
+.key-features-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    padding: 32px;
+}
+.key-feature-list{
+    list-style: none;
+    text-align: center;
+}
+.key-feature{
+    display: inline-block;
+    margin: 46px;
+    color: white;
+}
+.image{
+    size: 32pt;
+    color: red;
+    
 }
