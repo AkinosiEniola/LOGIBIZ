@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.top{
+    display: flex;
+}
+.first-picture{
+    padding-top: 100px;
+}
+.first-picture img{
+    width: 100%;
+}
+.point{
+    text-align: right;
+    padding-top: 5px;
+    margin: 70px;
+    width: 30%;
+    font-size: 30px;
+}
+.mike{
+    color: #ea786f;
+    font-size: 50px;
+}
+.pin{
+    text-align: left;
+    padding-top: 0;
+
+}
+.second-picture img{
+    width: 60%;
+    height: 60%;
+    float: right;
+}
+span{
+    color: lightgray;
+}
