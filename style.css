@@ -62,7 +62,8 @@ body{
 }
 .overview >h1{
     font-weight: bolder;
-    margin-top: 380px;
+    position: absolute;
+    /* margin-top: 380px; */
 }
 .plans{
     width: 100%;
@@ -138,10 +139,54 @@ button{
 }
 .key-feature>div{
     width: 25%;
+    display: flex;
+}
+div>img{
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 footer{
     background-color: brown;
     color: white;
     padding: 16px 0;
     text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .main-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .brand-logo{
+        font-size: 20px;
+    }
+    .overview{
+        height: 50vh;
+    }
+    .plan{
+        display: block;
+        width: 100%;
+        margin: 16px 0;
+    }
+    .plan-highlighted{
+        box-shadow: none;
+    }
+    .key-feature{
+        display: block;
+        width: 100%;
+        margin: 24px 0;
+    }
+
 }

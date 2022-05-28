@@ -60,3 +60,29 @@ main{
     background-color: red;
     padding: 8px;
 }
+
+
+
+
+
+
+
+/* @media (max-width: 600px) {
+    .overview{
+        height: 50vh;
+    }
+    .plan{
+        display: block;
+        width: 100%;
+        margin: 16px 0;
+    }
+    .plan-highlighted{
+        box-shadow: none;
+    }
+    .key-feature{
+        display: block;
+        width: 100%;
+        margin: 24px 0;
+    }
+
+} */

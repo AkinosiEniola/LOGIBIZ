@@ -11,13 +11,18 @@ h1{
     text-align: center;
     color: #ea786f;
 }
+form{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
 .fill-up{
-    padding: 0 300px;
     font-weight: 500;
 }
 select{
     color: black;
     background-color: lightgreen;
+    width: 300px;
 }
 input{
     color: black;
@@ -35,3 +40,11 @@ span{
     color: blue;
     text-decoration: underline;
 }
+input[type = text],
+input[type = email],
+input[type = password] {
+    width: 300px;
+}
+
+
+
